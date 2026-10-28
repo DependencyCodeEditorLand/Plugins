@@ -7,14 +7,14 @@
     "test": "pnpm --filter @swc/* run test"
   },
   "devDependencies": {
-    "@changesets/cli": "^3.0.1",
-    "@swc/core": "^1.16.1",
+    "@changesets/cli": "^3.0.3",
+    "@swc/core": "^1.16.20",
     "@taplo/cli": "^0.7.0",
-    "@types/node": "^26.4.1",
+    "@types/node": "^26.6.5",
     "husky": "^9.1.7",
-    "lint-staged": "^17.4.1",
-    "prettier": "^3.9.6",
-    "vitest": "^5.0.0"
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.10",
+    "vitest": "^5.0.5"
   },
   "lint-staged": {
     "*.toml": [
